@@ -3,7 +3,6 @@ import { View, StyleSheet, SectionList, TouchableHighlight, Text } from 'react-n
 import Colors from '../constants/colors';
 import { Ionicons, MaterialCommunityIcons, Feather } from '@expo/vector-icons';
 
-
 const MainFooter = props => {
     return (
         <View style={styles.footerContainer}>

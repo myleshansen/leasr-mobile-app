@@ -1,10 +1,10 @@
 import React from 'raect'
 import { View, Text, StyleSheet } from 'react-native';
 
-const LoadingScreen = props => {
+const AccountScreen = props => {
     return (
         <View>
-            <Text>Loading Screen</Text>
+            <Text>Account Screen</Text>
         </View>
     );
 };
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default LoadingScreen;
+export default SavedScreen;
