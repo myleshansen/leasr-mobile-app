@@ -1,9 +1,9 @@
-import React from 'raect'
+import React from 'react'
 import { View, Text, StyleSheet } from 'react-native';
 
 const ExploreScreen = props => {
     return (
-        <View>
+        <View style={styles.screen}>
             <Text>Explore Screen</Text>
         </View>
     );

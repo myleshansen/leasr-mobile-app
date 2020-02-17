@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { View, Text, Stylesheet } from 'react-native'
-import MapHeader from '../components/MapHeader';
+import { View, Text, StyleSheet } from 'react-native'
 
 const MapScreen = props => {
     return (
-        <View>
-            <MapHeader />
+        <View style={styles.screen}>
             <Text>Map Screen</Text>
         </View>
     );

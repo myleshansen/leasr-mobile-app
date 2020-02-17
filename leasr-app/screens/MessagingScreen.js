@@ -1,9 +1,9 @@
-import React from 'raect'
+import React from 'react'
 import { View, Text, StyleSheet } from 'react-native';
 
 const MessagingScreen = props => {
     return (
-        <View>
+        <View style={styles.screen}>
             <Text>MessagingScreen Screen</Text>
         </View>
     );

@@ -1,23 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Logo } from 'react-native';
 import MainFooter from './components/MainFooter';
-import MapHeader from './components/MapHeader';
 
 import * as Font from 'expo-font';
+import MainNavigation from './navigation/MainNavigation';
 
 export default function App() {
 
 
   return (
-    <View style={styles.container}>
-      <MapHeader />
-      <Image 
-        source={require('./assets/leasr-brand-green.jpg')}
-        style={styles.imageContainer}
-        resizeMode="cover"
-      />
-      <MainFooter />
-    </View>
+    <MainNavigation />
   );
 }
 
